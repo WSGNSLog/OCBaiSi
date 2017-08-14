@@ -19,6 +19,7 @@
         UIButton *publishBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [publishBtn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
         [publishBtn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateHighlighted];
+        self.publishBtn.size = self.publishBtn.currentBackgroundImage.size;
         [self addSubview:publishBtn];
         self.publishBtn = publishBtn;
     }
@@ -30,7 +31,8 @@
     CGFloat width = self.width;
     CGFloat height = self.height;
     
-    self.publishBtn.bounds = CGRectMake(0, 0, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
+//    self.publishBtn.bounds = CGRectMake(0, 0, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
+    
     self.publishBtn.center = CGPointMake(width * 0.5, height * 0.5);
     
     //设置其他UITabBarButton的frame

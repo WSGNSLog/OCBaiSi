@@ -13,4 +13,10 @@
 
 #import "UIView+WSGExtension.h"
 
+#ifdef DEBUG
+#define WSGLog(...) NSLog(__VA_ARGS__)
+#else
+#define WSGLog(...)
+#endif
+
 #endif /* PrefixHeader_pch */
