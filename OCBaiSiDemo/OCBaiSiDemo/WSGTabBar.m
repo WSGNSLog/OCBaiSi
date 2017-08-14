@@ -26,14 +26,17 @@
 }
 
 - (void)layoutSubviews{
+    
+    CGFloat width = self.width;
+    CGFloat height = self.height;
+    
     self.publishBtn.bounds = CGRectMake(0, 0, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
-    self.publishBtn.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
+    self.publishBtn.center = CGPointMake(width * 0.5, height * 0.5);
     
     //设置其他UITabBarButton的frame
-    
     CGFloat btnY = 0;
-    CGFloat btnW = self.frame.size.width/5;
-    CGFloat BtnH = self.frame.size.height;
+    CGFloat btnW = width/5;
+    CGFloat BtnH = height;
     NSInteger index = 0;
     for (UIButton *btn in self.subviews) {
         if (!([btn isKindOfClass:[UIControl class]]) || btn == self.publishBtn) {
