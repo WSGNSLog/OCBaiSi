@@ -15,6 +15,12 @@
 		583A2C2D1F406A48003BA115 /* OCBaiSiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C2C1F406A48003BA115 /* OCBaiSiDemoTests.m */; };
 		583A2C381F406A48003BA115 /* OCBaiSiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C371F406A48003BA115 /* OCBaiSiDemoUITests.m */; };
 		583A2C471F406B6E003BA115 /* MyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C461F406B6E003BA115 /* MyTabbarController.m */; };
+		5857E4081F40B57000534565 /* WSGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4071F40B57000534565 /* WSGEssenceController.m */; };
+		5857E40B1F40B58000534565 /* WSGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E40A1F40B58000534565 /* WSGNewController.m */; };
+		5857E40E1F40B58D00534565 /* WSGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E40D1F40B58D00534565 /* WSGMeController.m */; };
+		5857E4111F40B5AB00534565 /* WSGFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4101F40B5AB00534565 /* WSGFriendTrendsController.m */; };
+		5857E4141F40B88E00534565 /* WSGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4131F40B88E00534565 /* WSGTabBar.m */; };
+		5857E4181F415D6100534565 /* UIView+WSGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4171F415D6100534565 /* UIView+WSGExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,19 @@
 		583A2C391F406A48003BA115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		583A2C451F406B6E003BA115 /* MyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbarController.h; sourceTree = "<group>"; };
 		583A2C461F406B6E003BA115 /* MyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbarController.m; sourceTree = "<group>"; };
+		5857E4061F40B57000534565 /* WSGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGEssenceController.h; sourceTree = "<group>"; };
+		5857E4071F40B57000534565 /* WSGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGEssenceController.m; sourceTree = "<group>"; };
+		5857E4091F40B58000534565 /* WSGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGNewController.h; sourceTree = "<group>"; };
+		5857E40A1F40B58000534565 /* WSGNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGNewController.m; sourceTree = "<group>"; };
+		5857E40C1F40B58D00534565 /* WSGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGMeController.h; sourceTree = "<group>"; };
+		5857E40D1F40B58D00534565 /* WSGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGMeController.m; sourceTree = "<group>"; };
+		5857E40F1F40B5AB00534565 /* WSGFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGFriendTrendsController.h; sourceTree = "<group>"; };
+		5857E4101F40B5AB00534565 /* WSGFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGFriendTrendsController.m; sourceTree = "<group>"; };
+		5857E4121F40B88E00534565 /* WSGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGTabBar.h; sourceTree = "<group>"; };
+		5857E4131F40B88E00534565 /* WSGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGTabBar.m; sourceTree = "<group>"; };
+		5857E4161F415D6100534565 /* UIView+WSGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WSGExtension.h"; path = "../UIView+WSGExtension.h"; sourceTree = "<group>"; };
+		5857E4171F415D6100534565 /* UIView+WSGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WSGExtension.m"; path = "../UIView+WSGExtension.m"; sourceTree = "<group>"; };
+		5857E41A1F415EFF00534565 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +125,19 @@
 				583A2C161F406A47003BA115 /* AppDelegate.m */,
 				583A2C451F406B6E003BA115 /* MyTabbarController.h */,
 				583A2C461F406B6E003BA115 /* MyTabbarController.m */,
+				5857E4061F40B57000534565 /* WSGEssenceController.h */,
+				5857E4071F40B57000534565 /* WSGEssenceController.m */,
+				5857E4091F40B58000534565 /* WSGNewController.h */,
+				5857E40A1F40B58000534565 /* WSGNewController.m */,
+				5857E40F1F40B5AB00534565 /* WSGFriendTrendsController.h */,
+				5857E4101F40B5AB00534565 /* WSGFriendTrendsController.m */,
+				5857E40C1F40B58D00534565 /* WSGMeController.h */,
+				5857E40D1F40B58D00534565 /* WSGMeController.m */,
+				5857E4121F40B88E00534565 /* WSGTabBar.h */,
+				5857E4131F40B88E00534565 /* WSGTabBar.m */,
+				5857E4161F415D6100534565 /* UIView+WSGExtension.h */,
+				5857E4171F415D6100534565 /* UIView+WSGExtension.m */,
+				5857E41A1F415EFF00534565 /* PrefixHeader.pch */,
 				583A2C181F406A47003BA115 /* ViewController.h */,
 				583A2C191F406A47003BA115 /* ViewController.m */,
 				583A2C121F406A47003BA115 /* Supporting Files */,
@@ -204,6 +236,7 @@
 		583A2C071F406A47003BA115 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WSG;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = xiaowu;
 				TargetAttributes = {
@@ -277,9 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5857E40B1F40B58000534565 /* WSGNewController.m in Sources */,
 				583A2C1A1F406A47003BA115 /* ViewController.m in Sources */,
+				5857E4141F40B88E00534565 /* WSGTabBar.m in Sources */,
 				583A2C471F406B6E003BA115 /* MyTabbarController.m in Sources */,
+				5857E4111F40B5AB00534565 /* WSGFriendTrendsController.m in Sources */,
+				5857E4081F40B57000534565 /* WSGEssenceController.m in Sources */,
+				5857E4181F415D6100534565 /* UIView+WSGExtension.m in Sources */,
 				583A2C171F406A47003BA115 /* AppDelegate.m in Sources */,
+				5857E40E1F40B58D00534565 /* WSGMeController.m in Sources */,
 				583A2C141F406A47003BA115 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaiSiDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = OCBaiSiDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaiSiDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = OCBaiSiDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +557,7 @@
 				583A2C3E1F406A48003BA115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583A2C3F1F406A48003BA115 /* Build configuration list for PBXNativeTarget "OCBaiSiDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +566,7 @@
 				583A2C411F406A48003BA115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583A2C421F406A48003BA115 /* Build configuration list for PBXNativeTarget "OCBaiSiDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +575,7 @@
 				583A2C441F406A48003BA115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
