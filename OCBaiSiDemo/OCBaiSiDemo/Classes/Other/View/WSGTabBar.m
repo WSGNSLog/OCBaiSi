@@ -16,10 +16,13 @@
 
 - (instancetype)initWithFrame:(CGRect)frame{
     if ([super initWithFrame:frame]) {
+        // 设置tabbar的背景图片
+        [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
+        
         UIButton *publishBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [publishBtn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
-        [publishBtn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateHighlighted];
-        self.publishBtn.size = self.publishBtn.currentBackgroundImage.size;
+        [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
+        [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        publishBtn.size = publishBtn.currentBackgroundImage.size;
         [self addSubview:publishBtn];
         self.publishBtn = publishBtn;
     }
@@ -27,7 +30,7 @@
 }
 
 - (void)layoutSubviews{
-    
+    [super layoutSubviews];
     CGFloat width = self.width;
     CGFloat height = self.height;
     
@@ -41,9 +44,8 @@
     CGFloat BtnH = height;
     NSInteger index = 0;
     for (UIButton *btn in self.subviews) {
-        if (!([btn isKindOfClass:[UIControl class]]) || btn == self.publishBtn) {
-            continue;
-        }
+        if (![btn isKindOfClass:[UIControl class]] || btn == self.publishBtn)continue;
+    
         //计算按钮的x值
         CGFloat btnX = btnW * ((index>1)?(index+1):index);
         btn.frame = CGRectMake(btnX, btnY, btnW, BtnH);

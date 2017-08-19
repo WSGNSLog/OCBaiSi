@@ -11,6 +11,7 @@
 #import "WSGNewController.h"
 #import "WSGEssenceController.h"
 #import "WSGFriendTrendsController.h"
+#import "WSGTabBar.h"
 
 @interface MyTabbarController ()
 
@@ -21,17 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSMutableDictionary *atrrs = [NSMutableDictionary dictionary];
-    atrrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
-    atrrs[NSForegroundColorAttributeName] = [UIColor grayColor];
+    [UINavigationBar appearance];
     
-    NSMutableDictionary *selectedAtrrs = [NSMutableDictionary dictionary];
-    selectedAtrrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
-    selectedAtrrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    attrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+    attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
+    
+    NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
+    selectedAttrs[NSFontAttributeName] = attrs[NSFontAttributeName];
+    selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
     
     UITabBarItem *item = [UITabBarItem appearance];
-    [item setTitleTextAttributes:atrrs forState:UIControlStateNormal];
-    [item setTitleTextAttributes:selectedAtrrs forState:UIControlStateSelected];
+    [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
+    [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
     
     [self setUpChildVC:[[WSGEssenceController alloc]init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
@@ -39,7 +42,7 @@
     [self setUpChildVC:[[WSGFriendTrendsController alloc]init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     [self setUpChildVC:[[WSGMeController alloc]init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     
-    
+    [self setValue:[[WSGTabBar alloc]init] forKeyPath:@"tabBar"];
     
 }
 - (void)setUpChildVC:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage{
@@ -49,6 +52,7 @@
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     vc.view.backgroundColor = [UIColor grayColor];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     [self addChildViewController:nav];
 }
 - (void)didReceiveMemoryWarning {

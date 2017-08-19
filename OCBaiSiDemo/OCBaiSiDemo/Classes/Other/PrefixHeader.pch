@@ -4,7 +4,7 @@
 //
 //  Created by xiaowu on 2017/8/14.
 //  Copyright © 2017年 xiaowu. All rights reserved.
-//
+///Users/xiaowu/OCBaiSi/OCBaiSiDemo/OCBaiSiDemo/Classes/Other/PrefixHeader.pch
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
@@ -12,11 +12,14 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 
 #import "UIView+WSGExtension.h"
+#import "UIBarButtonItem+WSGExtension.h"
 
 #ifdef DEBUG
 #define WSGLog(...) NSLog(__VA_ARGS__)
 #else
 #define WSGLog(...)
 #endif
+
+#define WSGLogFunc WSGLog(@"%s",__func__)
 
 #endif /* PrefixHeader_pch */

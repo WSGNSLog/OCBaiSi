@@ -17,9 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.navigationItem.title = @"我的";
+    
+    // 设置导航栏右边的按钮
+    UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingBtnClick)];
+    UIBarButtonItem *moonItem = [UIBarButtonItem itemWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(moonBtnClick)];
+    self.navigationItem.rightBarButtonItems = @[settingItem, moonItem];
+    
+    // 设置背景色
+    //self.view.backgroundColor = XMGGlobalBg;
+                                               
 }
-
+- (void)settingBtnClick{
+    WSGLogFunc;
+}
+- (void)moonBtnClick{
+    WSGLogFunc;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

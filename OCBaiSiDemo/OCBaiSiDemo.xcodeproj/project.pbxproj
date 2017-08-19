@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		583A2C141F406A47003BA115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C131F406A47003BA115 /* main.m */; };
-		583A2C171F406A47003BA115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C161F406A47003BA115 /* AppDelegate.m */; };
-		583A2C1A1F406A47003BA115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C191F406A47003BA115 /* ViewController.m */; };
 		583A2C1F1F406A47003BA115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583A2C1E1F406A47003BA115 /* Assets.xcassets */; };
 		583A2C221F406A47003BA115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583A2C201F406A47003BA115 /* LaunchScreen.storyboard */; };
 		583A2C2D1F406A48003BA115 /* OCBaiSiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C2C1F406A48003BA115 /* OCBaiSiDemoTests.m */; };
 		583A2C381F406A48003BA115 /* OCBaiSiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C371F406A48003BA115 /* OCBaiSiDemoUITests.m */; };
-		583A2C471F406B6E003BA115 /* MyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C461F406B6E003BA115 /* MyTabbarController.m */; };
-		5857E4081F40B57000534565 /* WSGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4071F40B57000534565 /* WSGEssenceController.m */; };
-		5857E40B1F40B58000534565 /* WSGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E40A1F40B58000534565 /* WSGNewController.m */; };
-		5857E40E1F40B58D00534565 /* WSGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E40D1F40B58D00534565 /* WSGMeController.m */; };
-		5857E4111F40B5AB00534565 /* WSGFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4101F40B5AB00534565 /* WSGFriendTrendsController.m */; };
-		5857E4141F40B88E00534565 /* WSGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4131F40B88E00534565 /* WSGTabBar.m */; };
-		5857E4181F415D6100534565 /* UIView+WSGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857E4171F415D6100534565 /* UIView+WSGExtension.m */; };
+		584D26FF1F483C0A00313F06 /* WSGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26D91F483C0A00313F06 /* WSGEssenceController.m */; };
+		584D27001F483C0A00313F06 /* WSGFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26DF1F483C0A00313F06 /* WSGFriendTrendsController.m */; };
+		584D27011F483C0A00313F06 /* WSGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26E51F483C0A00313F06 /* WSGMeController.m */; };
+		584D27021F483C0A00313F06 /* WSGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26EB1F483C0A00313F06 /* WSGNewController.m */; };
+		584D27031F483C0A00313F06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26F01F483C0A00313F06 /* AppDelegate.m */; };
+		584D27041F483C0A00313F06 /* UIBarButtonItem+WSGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26F31F483C0A00313F06 /* UIBarButtonItem+WSGExtension.m */; };
+		584D27051F483C0A00313F06 /* UIView+WSGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26F51F483C0A00313F06 /* UIView+WSGExtension.m */; };
+		584D27061F483C0A00313F06 /* MyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26F81F483C0A00313F06 /* MyTabbarController.m */; };
+		584D27081F483C0A00313F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26FA1F483C0A00313F06 /* main.m */; };
+		584D27091F483C0A00313F06 /* WSGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26FE1F483C0A00313F06 /* WSGTabBar.m */; };
+		584D270B1F483C9000313F06 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 584D270A1F483C9000313F06 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,35 +43,35 @@
 
 /* Begin PBXFileReference section */
 		583A2C0F1F406A47003BA115 /* OCBaiSiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCBaiSiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		583A2C131F406A47003BA115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		583A2C151F406A47003BA115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		583A2C161F406A47003BA115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		583A2C181F406A47003BA115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		583A2C191F406A47003BA115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		583A2C1E1F406A47003BA115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		583A2C211F406A47003BA115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		583A2C231F406A47003BA115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		583A2C281F406A47003BA115 /* OCBaiSiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCBaiSiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583A2C2C1F406A48003BA115 /* OCBaiSiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCBaiSiDemoTests.m; sourceTree = "<group>"; };
 		583A2C2E1F406A48003BA115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		583A2C331F406A48003BA115 /* OCBaiSiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCBaiSiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583A2C371F406A48003BA115 /* OCBaiSiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCBaiSiDemoUITests.m; sourceTree = "<group>"; };
 		583A2C391F406A48003BA115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		583A2C451F406B6E003BA115 /* MyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbarController.h; sourceTree = "<group>"; };
-		583A2C461F406B6E003BA115 /* MyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbarController.m; sourceTree = "<group>"; };
-		5857E4061F40B57000534565 /* WSGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGEssenceController.h; sourceTree = "<group>"; };
-		5857E4071F40B57000534565 /* WSGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGEssenceController.m; sourceTree = "<group>"; };
-		5857E4091F40B58000534565 /* WSGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGNewController.h; sourceTree = "<group>"; };
-		5857E40A1F40B58000534565 /* WSGNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGNewController.m; sourceTree = "<group>"; };
-		5857E40C1F40B58D00534565 /* WSGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGMeController.h; sourceTree = "<group>"; };
-		5857E40D1F40B58D00534565 /* WSGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGMeController.m; sourceTree = "<group>"; };
-		5857E40F1F40B5AB00534565 /* WSGFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGFriendTrendsController.h; sourceTree = "<group>"; };
-		5857E4101F40B5AB00534565 /* WSGFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGFriendTrendsController.m; sourceTree = "<group>"; };
-		5857E4121F40B88E00534565 /* WSGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGTabBar.h; sourceTree = "<group>"; };
-		5857E4131F40B88E00534565 /* WSGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGTabBar.m; sourceTree = "<group>"; };
-		5857E4161F415D6100534565 /* UIView+WSGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WSGExtension.h"; path = "../UIView+WSGExtension.h"; sourceTree = "<group>"; };
-		5857E4171F415D6100534565 /* UIView+WSGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WSGExtension.m"; path = "../UIView+WSGExtension.m"; sourceTree = "<group>"; };
-		5857E41A1F415EFF00534565 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		584D26D81F483C0A00313F06 /* WSGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGEssenceController.h; sourceTree = "<group>"; };
+		584D26D91F483C0A00313F06 /* WSGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGEssenceController.m; sourceTree = "<group>"; };
+		584D26DE1F483C0A00313F06 /* WSGFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGFriendTrendsController.h; sourceTree = "<group>"; };
+		584D26DF1F483C0A00313F06 /* WSGFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGFriendTrendsController.m; sourceTree = "<group>"; };
+		584D26E41F483C0A00313F06 /* WSGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGMeController.h; sourceTree = "<group>"; };
+		584D26E51F483C0A00313F06 /* WSGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGMeController.m; sourceTree = "<group>"; };
+		584D26EA1F483C0A00313F06 /* WSGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGNewController.h; sourceTree = "<group>"; };
+		584D26EB1F483C0A00313F06 /* WSGNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGNewController.m; sourceTree = "<group>"; };
+		584D26EF1F483C0A00313F06 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584D26F01F483C0A00313F06 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584D26F21F483C0A00313F06 /* UIBarButtonItem+WSGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WSGExtension.h"; sourceTree = "<group>"; };
+		584D26F31F483C0A00313F06 /* UIBarButtonItem+WSGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WSGExtension.m"; sourceTree = "<group>"; };
+		584D26F41F483C0A00313F06 /* UIView+WSGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSGExtension.h"; sourceTree = "<group>"; };
+		584D26F51F483C0A00313F06 /* UIView+WSGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSGExtension.m"; sourceTree = "<group>"; };
+		584D26F71F483C0A00313F06 /* MyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbarController.h; sourceTree = "<group>"; };
+		584D26F81F483C0A00313F06 /* MyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbarController.m; sourceTree = "<group>"; };
+		584D26FA1F483C0A00313F06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584D26FB1F483C0A00313F06 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		584D26FD1F483C0A00313F06 /* WSGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGTabBar.h; sourceTree = "<group>"; };
+		584D26FE1F483C0A00313F06 /* WSGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGTabBar.m; sourceTree = "<group>"; };
+		584D270A1F483C9000313F06 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,25 +122,7 @@
 		583A2C111F406A47003BA115 /* OCBaiSiDemo */ = {
 			isa = PBXGroup;
 			children = (
-				583A2C151F406A47003BA115 /* AppDelegate.h */,
-				583A2C161F406A47003BA115 /* AppDelegate.m */,
-				583A2C451F406B6E003BA115 /* MyTabbarController.h */,
-				583A2C461F406B6E003BA115 /* MyTabbarController.m */,
-				5857E4061F40B57000534565 /* WSGEssenceController.h */,
-				5857E4071F40B57000534565 /* WSGEssenceController.m */,
-				5857E4091F40B58000534565 /* WSGNewController.h */,
-				5857E40A1F40B58000534565 /* WSGNewController.m */,
-				5857E40F1F40B5AB00534565 /* WSGFriendTrendsController.h */,
-				5857E4101F40B5AB00534565 /* WSGFriendTrendsController.m */,
-				5857E40C1F40B58D00534565 /* WSGMeController.h */,
-				5857E40D1F40B58D00534565 /* WSGMeController.m */,
-				5857E4121F40B88E00534565 /* WSGTabBar.h */,
-				5857E4131F40B88E00534565 /* WSGTabBar.m */,
-				5857E4161F415D6100534565 /* UIView+WSGExtension.h */,
-				5857E4171F415D6100534565 /* UIView+WSGExtension.m */,
-				5857E41A1F415EFF00534565 /* PrefixHeader.pch */,
-				583A2C181F406A47003BA115 /* ViewController.h */,
-				583A2C191F406A47003BA115 /* ViewController.m */,
+				584D26D51F483C0A00313F06 /* Classes */,
 				583A2C121F406A47003BA115 /* Supporting Files */,
 			);
 			path = OCBaiSiDemo;
@@ -148,10 +131,9 @@
 		583A2C121F406A47003BA115 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				584D270A1F483C9000313F06 /* Info.plist */,
 				583A2C1E1F406A47003BA115 /* Assets.xcassets */,
 				583A2C201F406A47003BA115 /* LaunchScreen.storyboard */,
-				583A2C231F406A47003BA115 /* Info.plist */,
-				583A2C131F406A47003BA115 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,6 +154,193 @@
 				583A2C391F406A48003BA115 /* Info.plist */,
 			);
 			path = OCBaiSiDemoUITests;
+			sourceTree = "<group>";
+		};
+		584D26D51F483C0A00313F06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				584D26D61F483C0A00313F06 /* Essence */,
+				584D26DC1F483C0A00313F06 /* FriendTrends */,
+				584D26E21F483C0A00313F06 /* Me */,
+				584D26E81F483C0A00313F06 /* New */,
+				584D26EE1F483C0A00313F06 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		584D26D61F483C0A00313F06 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				584D26D71F483C0A00313F06 /* Controller */,
+				584D26DA1F483C0A00313F06 /* Model */,
+				584D26DB1F483C0A00313F06 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		584D26D71F483C0A00313F06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				584D26D81F483C0A00313F06 /* WSGEssenceController.h */,
+				584D26D91F483C0A00313F06 /* WSGEssenceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		584D26DA1F483C0A00313F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		584D26DB1F483C0A00313F06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		584D26DC1F483C0A00313F06 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				584D26DD1F483C0A00313F06 /* Controller */,
+				584D26E01F483C0A00313F06 /* Model */,
+				584D26E11F483C0A00313F06 /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		584D26DD1F483C0A00313F06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				584D26DE1F483C0A00313F06 /* WSGFriendTrendsController.h */,
+				584D26DF1F483C0A00313F06 /* WSGFriendTrendsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		584D26E01F483C0A00313F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		584D26E11F483C0A00313F06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		584D26E21F483C0A00313F06 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				584D26E31F483C0A00313F06 /* Controller */,
+				584D26E61F483C0A00313F06 /* Model */,
+				584D26E71F483C0A00313F06 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		584D26E31F483C0A00313F06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				584D26E41F483C0A00313F06 /* WSGMeController.h */,
+				584D26E51F483C0A00313F06 /* WSGMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		584D26E61F483C0A00313F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		584D26E71F483C0A00313F06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		584D26E81F483C0A00313F06 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				584D26E91F483C0A00313F06 /* Controller */,
+				584D26EC1F483C0A00313F06 /* Model */,
+				584D26ED1F483C0A00313F06 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		584D26E91F483C0A00313F06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				584D26EA1F483C0A00313F06 /* WSGNewController.h */,
+				584D26EB1F483C0A00313F06 /* WSGNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		584D26EC1F483C0A00313F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		584D26ED1F483C0A00313F06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		584D26EE1F483C0A00313F06 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				584D26EF1F483C0A00313F06 /* AppDelegate.h */,
+				584D26F01F483C0A00313F06 /* AppDelegate.m */,
+				584D26F11F483C0A00313F06 /* Category */,
+				584D26F61F483C0A00313F06 /* Controller */,
+				584D26FA1F483C0A00313F06 /* main.m */,
+				584D26FB1F483C0A00313F06 /* PrefixHeader.pch */,
+				584D26FC1F483C0A00313F06 /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		584D26F11F483C0A00313F06 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				584D26F21F483C0A00313F06 /* UIBarButtonItem+WSGExtension.h */,
+				584D26F31F483C0A00313F06 /* UIBarButtonItem+WSGExtension.m */,
+				584D26F41F483C0A00313F06 /* UIView+WSGExtension.h */,
+				584D26F51F483C0A00313F06 /* UIView+WSGExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		584D26F61F483C0A00313F06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				584D26F71F483C0A00313F06 /* MyTabbarController.h */,
+				584D26F81F483C0A00313F06 /* MyTabbarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		584D26FC1F483C0A00313F06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				584D26FD1F483C0A00313F06 /* WSGTabBar.h */,
+				584D26FE1F483C0A00313F06 /* WSGTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +455,7 @@
 			files = (
 				583A2C221F406A47003BA115 /* LaunchScreen.storyboard in Resources */,
 				583A2C1F1F406A47003BA115 /* Assets.xcassets in Resources */,
+				584D270B1F483C9000313F06 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,16 +480,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5857E40B1F40B58000534565 /* WSGNewController.m in Sources */,
-				583A2C1A1F406A47003BA115 /* ViewController.m in Sources */,
-				5857E4141F40B88E00534565 /* WSGTabBar.m in Sources */,
-				583A2C471F406B6E003BA115 /* MyTabbarController.m in Sources */,
-				5857E4111F40B5AB00534565 /* WSGFriendTrendsController.m in Sources */,
-				5857E4081F40B57000534565 /* WSGEssenceController.m in Sources */,
-				5857E4181F415D6100534565 /* UIView+WSGExtension.m in Sources */,
-				583A2C171F406A47003BA115 /* AppDelegate.m in Sources */,
-				5857E40E1F40B58D00534565 /* WSGMeController.m in Sources */,
-				583A2C141F406A47003BA115 /* main.m in Sources */,
+				584D27021F483C0A00313F06 /* WSGNewController.m in Sources */,
+				584D26FF1F483C0A00313F06 /* WSGEssenceController.m in Sources */,
+				584D27001F483C0A00313F06 /* WSGFriendTrendsController.m in Sources */,
+				584D27011F483C0A00313F06 /* WSGMeController.m in Sources */,
+				584D27041F483C0A00313F06 /* UIBarButtonItem+WSGExtension.m in Sources */,
+				584D27061F483C0A00313F06 /* MyTabbarController.m in Sources */,
+				584D27051F483C0A00313F06 /* UIView+WSGExtension.m in Sources */,
+				584D27081F483C0A00313F06 /* main.m in Sources */,
+				584D27031F483C0A00313F06 /* AppDelegate.m in Sources */,
+				584D27091F483C0A00313F06 /* WSGTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +634,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaiSiDemo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaiSiDemo/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = OCBaiSiDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -479,7 +649,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3MBF9B5ZRL;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaiSiDemo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaiSiDemo/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = OCBaiSiDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
