@@ -21,7 +21,7 @@
     // 设置导航栏左边的按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsBtnClick)];
     
-
+    self.view.backgroundColor = WSGGlobalBg;
 }
 - (void)friendsBtnClick{
 

@@ -26,7 +26,7 @@
     self.navigationItem.rightBarButtonItems = @[settingItem, moonItem];
     
     // 设置背景色
-    //self.view.backgroundColor = XMGGlobalBg;
+    self.view.backgroundColor = WSGGlobalBg;
                                                
 }
 - (void)settingBtnClick{

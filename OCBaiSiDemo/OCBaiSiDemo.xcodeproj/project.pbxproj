@@ -22,6 +22,7 @@
 		584D27081F483C0A00313F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26FA1F483C0A00313F06 /* main.m */; };
 		584D27091F483C0A00313F06 /* WSGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26FE1F483C0A00313F06 /* WSGTabBar.m */; };
 		584D270B1F483C9000313F06 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 584D270A1F483C9000313F06 /* Info.plist */; };
+		584D270E1F48420D00313F06 /* WSGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D270D1F48420D00313F06 /* WSGNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		584D26FD1F483C0A00313F06 /* WSGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGTabBar.h; sourceTree = "<group>"; };
 		584D26FE1F483C0A00313F06 /* WSGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGTabBar.m; sourceTree = "<group>"; };
 		584D270A1F483C9000313F06 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584D270C1F48420D00313F06 /* WSGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGNavigationController.h; sourceTree = "<group>"; };
+		584D270D1F48420D00313F06 /* WSGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,13 +306,13 @@
 		584D26EE1F483C0A00313F06 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				584D26EF1F483C0A00313F06 /* AppDelegate.h */,
-				584D26F01F483C0A00313F06 /* AppDelegate.m */,
 				584D26F11F483C0A00313F06 /* Category */,
 				584D26F61F483C0A00313F06 /* Controller */,
+				584D26FC1F483C0A00313F06 /* View */,
+				584D26EF1F483C0A00313F06 /* AppDelegate.h */,
+				584D26F01F483C0A00313F06 /* AppDelegate.m */,
 				584D26FA1F483C0A00313F06 /* main.m */,
 				584D26FB1F483C0A00313F06 /* PrefixHeader.pch */,
-				584D26FC1F483C0A00313F06 /* View */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -330,6 +333,8 @@
 			children = (
 				584D26F71F483C0A00313F06 /* MyTabbarController.h */,
 				584D26F81F483C0A00313F06 /* MyTabbarController.m */,
+				584D270C1F48420D00313F06 /* WSGNavigationController.h */,
+				584D270D1F48420D00313F06 /* WSGNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -485,6 +490,7 @@
 				584D27001F483C0A00313F06 /* WSGFriendTrendsController.m in Sources */,
 				584D27011F483C0A00313F06 /* WSGMeController.m in Sources */,
 				584D27041F483C0A00313F06 /* UIBarButtonItem+WSGExtension.m in Sources */,
+				584D270E1F48420D00313F06 /* WSGNavigationController.m in Sources */,
 				584D27061F483C0A00313F06 /* MyTabbarController.m in Sources */,
 				584D27051F483C0A00313F06 /* UIView+WSGExtension.m in Sources */,
 				584D27081F483C0A00313F06 /* main.m in Sources */,

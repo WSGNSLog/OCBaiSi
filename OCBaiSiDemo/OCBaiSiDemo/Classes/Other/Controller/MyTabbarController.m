@@ -11,6 +11,7 @@
 #import "WSGNewController.h"
 #import "WSGEssenceController.h"
 #import "WSGFriendTrendsController.h"
+#import "WSGNavigationController.h"
 #import "WSGTabBar.h"
 
 @interface MyTabbarController ()
@@ -50,8 +51,7 @@
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor = [UIColor grayColor];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    WSGNavigationController *nav = [[WSGNavigationController alloc]initWithRootViewController:vc];
     [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     [self addChildViewController:nav];
 }

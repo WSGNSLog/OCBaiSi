@@ -21,7 +21,7 @@
     
     // 设置导航栏左边的按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagBtnClick)];
-    
+    self.view.backgroundColor = WSGGlobalBg;
 }
 - (void)tagBtnClick{
     WSGLog(@"%s",__func__);
