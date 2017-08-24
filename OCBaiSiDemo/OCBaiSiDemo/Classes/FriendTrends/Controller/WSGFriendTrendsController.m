@@ -7,6 +7,7 @@
 //
 
 #import "WSGFriendTrendsController.h"
+#import "WSGRecommendController.h"
 
 @interface WSGFriendTrendsController ()
 
@@ -25,6 +26,8 @@
 }
 - (void)friendsBtnClick{
 
+    WSGRecommendController *recomm = [[WSGRecommendController alloc]init];
+    [self.navigationController pushViewController:recomm animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

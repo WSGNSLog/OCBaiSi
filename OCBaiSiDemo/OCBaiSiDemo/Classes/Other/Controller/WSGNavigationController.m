@@ -13,7 +13,15 @@
 @end
 
 @implementation WSGNavigationController
-
+/**
+ * 当第一次使用这个类的时候会调用一次
+ */
++ (void)initialize
+{
+    // 当导航栏用在XMGNavigationController中, appearance设置才会生效
+    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[self class], nil];
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     

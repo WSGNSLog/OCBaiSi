@@ -52,7 +52,7 @@
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     WSGNavigationController *nav = [[WSGNavigationController alloc]initWithRootViewController:vc];
-    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    
     [self addChildViewController:nav];
 }
 - (void)didReceiveMemoryWarning {

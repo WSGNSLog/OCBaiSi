@@ -11,6 +11,9 @@
 		583A2C221F406A47003BA115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583A2C201F406A47003BA115 /* LaunchScreen.storyboard */; };
 		583A2C2D1F406A48003BA115 /* OCBaiSiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C2C1F406A48003BA115 /* OCBaiSiDemoTests.m */; };
 		583A2C381F406A48003BA115 /* OCBaiSiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583A2C371F406A48003BA115 /* OCBaiSiDemoUITests.m */; };
+		584386301F4BE8A900B78B10 /* WSGFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5843862F1F4BE8A900B78B10 /* WSGFriendTrendsController.xib */; };
+		584A9FE21F4F30720037E0C2 /* WSGRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A9FE01F4F30720037E0C2 /* WSGRecommendController.m */; };
+		584A9FE31F4F30720037E0C2 /* WSGRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584A9FE11F4F30720037E0C2 /* WSGRecommendController.xib */; };
 		584D26FF1F483C0A00313F06 /* WSGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26D91F483C0A00313F06 /* WSGEssenceController.m */; };
 		584D27001F483C0A00313F06 /* WSGFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26DF1F483C0A00313F06 /* WSGFriendTrendsController.m */; };
 		584D27011F483C0A00313F06 /* WSGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D26E51F483C0A00313F06 /* WSGMeController.m */; };
@@ -52,6 +55,10 @@
 		583A2C331F406A48003BA115 /* OCBaiSiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCBaiSiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583A2C371F406A48003BA115 /* OCBaiSiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCBaiSiDemoUITests.m; sourceTree = "<group>"; };
 		583A2C391F406A48003BA115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5843862F1F4BE8A900B78B10 /* WSGFriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSGFriendTrendsController.xib; sourceTree = "<group>"; };
+		584A9FDF1F4F30720037E0C2 /* WSGRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGRecommendController.h; sourceTree = "<group>"; };
+		584A9FE01F4F30720037E0C2 /* WSGRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGRecommendController.m; sourceTree = "<group>"; };
+		584A9FE11F4F30720037E0C2 /* WSGRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSGRecommendController.xib; sourceTree = "<group>"; };
 		584D26D81F483C0A00313F06 /* WSGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGEssenceController.h; sourceTree = "<group>"; };
 		584D26D91F483C0A00313F06 /* WSGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGEssenceController.m; sourceTree = "<group>"; };
 		584D26DE1F483C0A00313F06 /* WSGFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGFriendTrendsController.h; sourceTree = "<group>"; };
@@ -219,6 +226,10 @@
 			children = (
 				584D26DE1F483C0A00313F06 /* WSGFriendTrendsController.h */,
 				584D26DF1F483C0A00313F06 /* WSGFriendTrendsController.m */,
+				5843862F1F4BE8A900B78B10 /* WSGFriendTrendsController.xib */,
+				584A9FDF1F4F30720037E0C2 /* WSGRecommendController.h */,
+				584A9FE01F4F30720037E0C2 /* WSGRecommendController.m */,
+				584A9FE11F4F30720037E0C2 /* WSGRecommendController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -460,7 +471,9 @@
 			files = (
 				583A2C221F406A47003BA115 /* LaunchScreen.storyboard in Resources */,
 				583A2C1F1F406A47003BA115 /* Assets.xcassets in Resources */,
+				584A9FE31F4F30720037E0C2 /* WSGRecommendController.xib in Resources */,
 				584D270B1F483C9000313F06 /* Info.plist in Resources */,
+				584386301F4BE8A900B78B10 /* WSGFriendTrendsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +508,7 @@
 				584D27051F483C0A00313F06 /* UIView+WSGExtension.m in Sources */,
 				584D27081F483C0A00313F06 /* main.m in Sources */,
 				584D27031F483C0A00313F06 /* AppDelegate.m in Sources */,
+				584A9FE21F4F30720037E0C2 /* WSGRecommendController.m in Sources */,
 				584D27091F483C0A00313F06 /* WSGTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
