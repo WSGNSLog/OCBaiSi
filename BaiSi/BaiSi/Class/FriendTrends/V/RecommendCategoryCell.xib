@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="RecommendCategoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Guz-iY-Rgd">
+                        <rect key="frame" x="0.0" y="0.0" width="5" height="42.5"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="Lqe-Di-k4J"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGu-z9-LZt">
+                        <rect key="frame" x="0.0" y="42.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="vIf-6I-zOE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tGu-z9-LZt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="A9e-Bt-bpu"/>
+                    <constraint firstItem="tGu-z9-LZt" firstAttribute="top" secondItem="Guz-iY-Rgd" secondAttribute="bottom" id="Bcw-nv-eLS"/>
+                    <constraint firstItem="Guz-iY-Rgd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WqX-YU-1Vt"/>
+                    <constraint firstAttribute="bottom" secondItem="tGu-z9-LZt" secondAttribute="bottom" id="Yyi-dS-OfC"/>
+                    <constraint firstItem="Guz-iY-Rgd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nl5-qz-Sqd"/>
+                    <constraint firstAttribute="trailing" secondItem="tGu-z9-LZt" secondAttribute="trailing" id="uI1-iQ-cyl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="selectedIndicator" destination="Guz-iY-Rgd" id="nH1-or-lr0"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="56"/>
+        </tableViewCell>
+    </objects>
+</document>

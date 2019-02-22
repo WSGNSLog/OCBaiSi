@@ -1,0 +1,10 @@
+target 'BaiSi' do
+pod 'AFNetworking', '~> 3.0'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'NJKWebViewProgress'
+pod 'SVProgressHUD'
+pod 'pop'
+
+end

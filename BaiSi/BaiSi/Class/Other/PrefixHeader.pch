@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  BaiSi
+//
+//  Created by user on 2019/2/18.
+//  Copyright © 2019 Wu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIImageView+Extension.h"
+#ifdef DEBUG
+#define MyLog(...) NSLog(__VA_ARGS__)
+#else
+#define MyLog(...)
+#endif
+
+#define MyLogFunc MyLog(@"%s", __func__)
+
+#define MyRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define MyGlobalBg MyRGBColor(223, 223, 223)
+#endif /* PrefixHeader_pch */

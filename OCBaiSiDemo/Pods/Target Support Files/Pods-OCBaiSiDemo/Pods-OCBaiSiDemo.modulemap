@@ -1,6 +1,0 @@
-framework module Pods_OCBaiSiDemo {
-  umbrella header "Pods-OCBaiSiDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
