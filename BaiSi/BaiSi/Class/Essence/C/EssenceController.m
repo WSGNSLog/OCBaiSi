@@ -7,7 +7,7 @@
 //
 
 #import "EssenceController.h"
-
+#import "RecommendTagsController.h"
 @interface EssenceController ()
 
 @end
@@ -20,10 +20,13 @@
     self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+    
+    self.view.backgroundColor = MyGlobalBg;
 }
 - (void)tagClick
 {
-  
+    RecommendTagsController *vc = [[RecommendTagsController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 /*
 #pragma mark - Navigation

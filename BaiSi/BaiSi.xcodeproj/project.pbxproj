@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1B0A8AB722202F45002C99E7 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A8AB622202F45002C99E7 /* UIImageView+Extension.m */; };
 		1B0A8ABA222030D9002C99E7 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A8AB9222030D9002C99E7 /* UIImage+Extension.m */; };
+		1B0A8AC0222040E9002C99E7 /* RecommendTagsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A8ABF222040E9002C99E7 /* RecommendTagsController.m */; };
+		1B0A8AC322204253002C99E7 /* RecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A8AC222204253002C99E7 /* RecommendTag.m */; };
+		1B0A8AC722204356002C99E7 /* RecommedTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A8AC522204356002C99E7 /* RecommedTagCell.m */; };
+		1B0A8AC822204356002C99E7 /* RecommedTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A8AC622204356002C99E7 /* RecommedTagCell.xib */; };
 		1B36346A2219ADC3002E8AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3634682219ADC3002E8AC0 /* Main.storyboard */; };
 		1B36346C2219ADC5002E8AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B36346B2219ADC5002E8AC0 /* Assets.xcassets */; };
 		1B36346F2219ADC5002E8AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B36346D2219ADC5002E8AC0 /* LaunchScreen.storyboard */; };
@@ -45,6 +49,13 @@
 		1B0A8AB622202F45002C99E7 /* UIImageView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
 		1B0A8AB8222030D9002C99E7 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		1B0A8AB9222030D9002C99E7 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		1B0A8ABE222040E9002C99E7 /* RecommendTagsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendTagsController.h; sourceTree = "<group>"; };
+		1B0A8ABF222040E9002C99E7 /* RecommendTagsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendTagsController.m; sourceTree = "<group>"; };
+		1B0A8AC122204253002C99E7 /* RecommendTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendTag.h; sourceTree = "<group>"; };
+		1B0A8AC222204253002C99E7 /* RecommendTag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendTag.m; sourceTree = "<group>"; };
+		1B0A8AC422204356002C99E7 /* RecommedTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommedTagCell.h; sourceTree = "<group>"; };
+		1B0A8AC522204356002C99E7 /* RecommedTagCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommedTagCell.m; sourceTree = "<group>"; };
+		1B0A8AC622204356002C99E7 /* RecommedTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommedTagCell.xib; sourceTree = "<group>"; };
 		1B36345F2219ADC3002E8AC0 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3634692219ADC3002E8AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B36346B2219ADC5002E8AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -255,6 +266,8 @@
 		1B3634B5221C0EB1002E8AC0 /* M */ = {
 			isa = PBXGroup;
 			children = (
+				1B0A8AC122204253002C99E7 /* RecommendTag.h */,
+				1B0A8AC222204253002C99E7 /* RecommendTag.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -264,6 +277,8 @@
 			children = (
 				1B3634B7221C0EB1002E8AC0 /* EssenceController.h */,
 				1B3634B8221C0EB1002E8AC0 /* EssenceController.m */,
+				1B0A8ABE222040E9002C99E7 /* RecommendTagsController.h */,
+				1B0A8ABF222040E9002C99E7 /* RecommendTagsController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -271,6 +286,9 @@
 		1B3634B9221C0EB1002E8AC0 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				1B0A8AC422204356002C99E7 /* RecommedTagCell.h */,
+				1B0A8AC522204356002C99E7 /* RecommedTagCell.m */,
+				1B0A8AC622204356002C99E7 /* RecommedTagCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -447,6 +465,7 @@
 			files = (
 				1BD57B23221EEBBD002703B4 /* LoginRegisterController.xib in Resources */,
 				1B36346F2219ADC5002E8AC0 /* LaunchScreen.storyboard in Resources */,
+				1B0A8AC822204356002C99E7 /* RecommedTagCell.xib in Resources */,
 				1B36346C2219ADC5002E8AC0 /* Assets.xcassets in Resources */,
 				1B3634D4221C0EB1002E8AC0 /* RecommendController.xib in Resources */,
 				1BD57B28221EEDA6002703B4 /* RecommendCategoryCell.xib in Resources */,
@@ -524,12 +543,15 @@
 				1B3634CC221C0EB1002E8AC0 /* MyNavigationController.m in Sources */,
 				1B3634CF221C0EB1002E8AC0 /* UIView+Extension.m in Sources */,
 				1BD57B30221EEDF9002703B4 /* VerticalButton.m in Sources */,
+				1B0A8AC322204253002C99E7 /* RecommendTag.m in Sources */,
 				1BD57B27221EEDA6002703B4 /* RecommendCategoryCell.m in Sources */,
 				1B3634722219ADC5002E8AC0 /* main.m in Sources */,
 				1B0A8AB722202F45002C99E7 /* UIImageView+Extension.m in Sources */,
+				1B0A8AC0222040E9002C99E7 /* RecommendTagsController.m in Sources */,
 				1B0A8ABA222030D9002C99E7 /* UIImage+Extension.m in Sources */,
 				1BD57B1A221EE98E002703B4 /* RecommendCategory.m in Sources */,
 				1B3634CD221C0EB1002E8AC0 /* MyTabBar.m in Sources */,
+				1B0A8AC722204356002C99E7 /* RecommedTagCell.m in Sources */,
 				1B3634CB221C0EB1002E8AC0 /* MyTabBarController.m in Sources */,
 				1BD57B33221EEE17002703B4 /* TextField.m in Sources */,
 				1B3634D3221C0EB1002E8AC0 /* FriendController.m in Sources */,

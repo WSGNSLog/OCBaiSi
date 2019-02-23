@@ -143,9 +143,21 @@ static NSString *const UserId = @"user";
     [self.manager GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSArray *users = [RecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        [category.users addObjectsFromArray:users];
+        
+        if (self.params != params) return;
+        
+        [self.userTableView reloadData];
+        
+        [self checkFooterState];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        if (self.params != params) return;
+  
+        [SVProgressHUD showErrorWithStatus:@"加载用户数据失败"];
         
+        [self.userTableView.mj_footer endRefreshing];
     }];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
