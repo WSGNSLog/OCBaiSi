@@ -34,7 +34,9 @@ static NSString *const TagsId = @"TagsCellId";
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([RecommedTagCell class]) bundle:nil] forCellReuseIdentifier:TagsId];
     self.tableView.rowHeight = 70;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
     self.tableView.backgroundColor = MyGlobalBg;
+    
 }
 - (void)loadTags{
     [SVProgressHUD show];
@@ -67,7 +69,7 @@ static NSString *const TagsId = @"TagsCellId";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     RecommedTagCell *cell = [tableView dequeueReusableCellWithIdentifier:TagsId forIndexPath:indexPath];
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.recommedTag = self.tags[indexPath.row];
     
     return cell;

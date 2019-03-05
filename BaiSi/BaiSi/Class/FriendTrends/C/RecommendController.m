@@ -60,6 +60,8 @@ static NSString *const UserId = @"user";
     self.categoryTableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
     self.userTableView.contentInset = self.categoryTableView.contentInset;
     self.userTableView.rowHeight =70;
+    self.userTableView.tableFooterView = [UIView new];
+    self.categoryTableView.tableFooterView = [UIView new];
     
     self.title = @"推荐关注";
     

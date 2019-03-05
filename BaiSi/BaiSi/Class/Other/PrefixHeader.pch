@@ -13,6 +13,34 @@
 #import "UIBarButtonItem+Extension.h"
 #import "UIImage+Extension.h"
 #import "UIImageView+Extension.h"
+#import "BSConst.h"
+
+#define StatusBarHeight  [[UIApplication sharedApplication] statusBarFrame].size.height
+#define NavBarHeight     44.0
+#define TopHeight (StatusBarHeight + NavBarHeight)
+#define TabBarHeight (iPhoneX?83:44)
+
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+
+#define WeakSelf  __weak typeof(self) weakSelf = self;
+
+
+#define iOS11 ([UIDevice currentDevice].systemVersion.floatValue>=11.0)
+#define iOS10 ([UIDevice currentDevice].systemVersion.floatValue>=10.0)&&([UIDevice currentDevice].systemVersion.floatValue<11.0)
+#define iOS9 ([UIDevice currentDevice].systemVersion.floatValue>=9.0)&&([UIDevice currentDevice].systemVersion.floatValue<10.0)
+#define iOS8 ([UIDevice currentDevice].systemVersion.floatValue>=8.0)&&([UIDevice currentDevice].systemVersion.floatValue<9.0)
+#define iOS7 ([UIDevice currentDevice].systemVersion.floatValue>=7.0)&&([UIDevice currentDevice].systemVersion.floatValue<8.0)
+
+#define  iPhone4     ([[UIScreen mainScreen] bounds].size.height==480)
+#define  iPhone5     ([[UIScreen mainScreen] bounds].size.height==568)
+#define  iPhone6     ([[UIScreen mainScreen] bounds].size.height==667)
+#define  iPhone6plus ([[UIScreen mainScreen] bounds].size.height==736)
+#define  iPhoneX     ([[UIScreen mainScreen] bounds].size.height==812)//1125 * 2436   XS
+#define  iPhoneXMax    ([[UIScreen mainScreen] bounds].size.height==896)//896 * 414宽度  1242X2688(分辨率)模拟器实测
+#define  iPhoneXR    ([[UIScreen mainScreen] bounds].size.height==828)//828 * 1792宽度  828X1792(分辨率) 待模拟器实测
+
+
 #ifdef DEBUG
 #define MyLog(...) NSLog(__VA_ARGS__)
 #else

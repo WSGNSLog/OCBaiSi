@@ -30,6 +30,19 @@
 		1B3634D4221C0EB1002E8AC0 /* RecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3634C5221C0EB1002E8AC0 /* RecommendController.xib */; };
 		1B3634D5221C0EB1002E8AC0 /* RecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3634C7221C0EB1002E8AC0 /* RecommendController.m */; };
 		1B3634D6221C0EB1002E8AC0 /* FriendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3634C8221C0EB1002E8AC0 /* FriendController.xib */; };
+		1B36E5F222255A600019F6BA /* TopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E5F122255A600019F6BA /* TopicController.m */; };
+		1B36E5F622255A740019F6BA /* ShowPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E5F422255A740019F6BA /* ShowPictureController.m */; };
+		1B36E5F722255A740019F6BA /* ShowPictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B36E5F522255A740019F6BA /* ShowPictureController.xib */; };
+		1B36E5FA22255FBF0019F6BA /* BSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E5F922255FBF0019F6BA /* BSConst.m */; };
+		1B36E5FD2225739A0019F6BA /* TopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E5FC2225739A0019F6BA /* TopicModel.m */; };
+		1B36E601222573B80019F6BA /* TopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E5FF222573B80019F6BA /* TopicCell.m */; };
+		1B36E602222573B80019F6BA /* TopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B36E600222573B80019F6BA /* TopicCell.xib */; };
+		1B36E605222579650019F6BA /* TopicPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E604222579650019F6BA /* TopicPicture.m */; };
+		1B36E607222579740019F6BA /* TopicPicture.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B36E606222579740019F6BA /* TopicPicture.xib */; };
+		1B36E60A222579890019F6BA /* TopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E609222579890019F6BA /* TopicVoiceView.m */; };
+		1B36E60C222579900019F6BA /* TopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B36E60B222579900019F6BA /* TopicVoiceView.xib */; };
+		1B36E60F222579A00019F6BA /* TopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E60E222579A00019F6BA /* TopicVideoView.m */; };
+		1B36E611222579AB0019F6BA /* TopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B36E610222579AB0019F6BA /* TopicVideoView.xib */; };
 		1BD57B1A221EE98E002703B4 /* RecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57B19221EE98E002703B4 /* RecommendCategory.m */; };
 		1BD57B1D221EE9A4002703B4 /* RecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57B1C221EE9A4002703B4 /* RecommendUser.m */; };
 		1BD57B22221EEBBD002703B4 /* LoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57B20221EEBBD002703B4 /* LoginRegisterController.m */; };
@@ -87,6 +100,27 @@
 		1B3634C6221C0EB1002E8AC0 /* FriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendController.h; sourceTree = "<group>"; };
 		1B3634C7221C0EB1002E8AC0 /* RecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendController.m; sourceTree = "<group>"; };
 		1B3634C8221C0EB1002E8AC0 /* FriendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendController.xib; sourceTree = "<group>"; };
+		1B36E5F022255A600019F6BA /* TopicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicController.h; sourceTree = "<group>"; };
+		1B36E5F122255A600019F6BA /* TopicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicController.m; sourceTree = "<group>"; };
+		1B36E5F322255A740019F6BA /* ShowPictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowPictureController.h; sourceTree = "<group>"; };
+		1B36E5F422255A740019F6BA /* ShowPictureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowPictureController.m; sourceTree = "<group>"; };
+		1B36E5F522255A740019F6BA /* ShowPictureController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowPictureController.xib; sourceTree = "<group>"; };
+		1B36E5F822255FBF0019F6BA /* BSConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSConst.h; sourceTree = "<group>"; };
+		1B36E5F922255FBF0019F6BA /* BSConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSConst.m; sourceTree = "<group>"; };
+		1B36E5FB2225739A0019F6BA /* TopicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicModel.h; sourceTree = "<group>"; };
+		1B36E5FC2225739A0019F6BA /* TopicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicModel.m; sourceTree = "<group>"; };
+		1B36E5FE222573B80019F6BA /* TopicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicCell.h; sourceTree = "<group>"; };
+		1B36E5FF222573B80019F6BA /* TopicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicCell.m; sourceTree = "<group>"; };
+		1B36E600222573B80019F6BA /* TopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicCell.xib; sourceTree = "<group>"; };
+		1B36E603222579650019F6BA /* TopicPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicPicture.h; sourceTree = "<group>"; };
+		1B36E604222579650019F6BA /* TopicPicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicPicture.m; sourceTree = "<group>"; };
+		1B36E606222579740019F6BA /* TopicPicture.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicPicture.xib; sourceTree = "<group>"; };
+		1B36E608222579890019F6BA /* TopicVoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicVoiceView.h; sourceTree = "<group>"; };
+		1B36E609222579890019F6BA /* TopicVoiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicVoiceView.m; sourceTree = "<group>"; };
+		1B36E60B222579900019F6BA /* TopicVoiceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicVoiceView.xib; sourceTree = "<group>"; };
+		1B36E60D222579A00019F6BA /* TopicVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicVideoView.h; sourceTree = "<group>"; };
+		1B36E60E222579A00019F6BA /* TopicVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicVideoView.m; sourceTree = "<group>"; };
+		1B36E610222579AB0019F6BA /* TopicVideoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicVideoView.xib; sourceTree = "<group>"; };
 		1BD57B18221EE98E002703B4 /* RecommendCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendCategory.h; sourceTree = "<group>"; };
 		1BD57B19221EE98E002703B4 /* RecommendCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendCategory.m; sourceTree = "<group>"; };
 		1BD57B1B221EE9A4002703B4 /* RecommendUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendUser.h; sourceTree = "<group>"; };
@@ -167,6 +201,8 @@
 		1B36349C221C0EB1002E8AC0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1B36E5F822255FBF0019F6BA /* BSConst.h */,
+				1B36E5F922255FBF0019F6BA /* BSConst.m */,
 				1B36349D221C0EB1002E8AC0 /* AppDelegate.h */,
 				1B36349E221C0EB1002E8AC0 /* AppDelegate.m */,
 				1B36349F221C0EB1002E8AC0 /* PrefixHeader.pch */,
@@ -268,6 +304,8 @@
 			children = (
 				1B0A8AC122204253002C99E7 /* RecommendTag.h */,
 				1B0A8AC222204253002C99E7 /* RecommendTag.m */,
+				1B36E5FB2225739A0019F6BA /* TopicModel.h */,
+				1B36E5FC2225739A0019F6BA /* TopicModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -279,6 +317,11 @@
 				1B3634B8221C0EB1002E8AC0 /* EssenceController.m */,
 				1B0A8ABE222040E9002C99E7 /* RecommendTagsController.h */,
 				1B0A8ABF222040E9002C99E7 /* RecommendTagsController.m */,
+				1B36E5F022255A600019F6BA /* TopicController.h */,
+				1B36E5F122255A600019F6BA /* TopicController.m */,
+				1B36E5F322255A740019F6BA /* ShowPictureController.h */,
+				1B36E5F422255A740019F6BA /* ShowPictureController.m */,
+				1B36E5F522255A740019F6BA /* ShowPictureController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -289,6 +332,18 @@
 				1B0A8AC422204356002C99E7 /* RecommedTagCell.h */,
 				1B0A8AC522204356002C99E7 /* RecommedTagCell.m */,
 				1B0A8AC622204356002C99E7 /* RecommedTagCell.xib */,
+				1B36E5FE222573B80019F6BA /* TopicCell.h */,
+				1B36E5FF222573B80019F6BA /* TopicCell.m */,
+				1B36E600222573B80019F6BA /* TopicCell.xib */,
+				1B36E603222579650019F6BA /* TopicPicture.h */,
+				1B36E604222579650019F6BA /* TopicPicture.m */,
+				1B36E606222579740019F6BA /* TopicPicture.xib */,
+				1B36E608222579890019F6BA /* TopicVoiceView.h */,
+				1B36E609222579890019F6BA /* TopicVoiceView.m */,
+				1B36E60B222579900019F6BA /* TopicVoiceView.xib */,
+				1B36E60D222579A00019F6BA /* TopicVideoView.h */,
+				1B36E60E222579A00019F6BA /* TopicVideoView.m */,
+				1B36E610222579AB0019F6BA /* TopicVideoView.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -464,13 +519,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD57B23221EEBBD002703B4 /* LoginRegisterController.xib in Resources */,
+				1B36E602222573B80019F6BA /* TopicCell.xib in Resources */,
 				1B36346F2219ADC5002E8AC0 /* LaunchScreen.storyboard in Resources */,
+				1B36E60C222579900019F6BA /* TopicVoiceView.xib in Resources */,
 				1B0A8AC822204356002C99E7 /* RecommedTagCell.xib in Resources */,
+				1B36E607222579740019F6BA /* TopicPicture.xib in Resources */,
+				1B36E5F722255A740019F6BA /* ShowPictureController.xib in Resources */,
 				1B36346C2219ADC5002E8AC0 /* Assets.xcassets in Resources */,
 				1B3634D4221C0EB1002E8AC0 /* RecommendController.xib in Resources */,
 				1BD57B28221EEDA6002703B4 /* RecommendCategoryCell.xib in Resources */,
 				1B3634D6221C0EB1002E8AC0 /* FriendController.xib in Resources */,
 				1B36346A2219ADC3002E8AC0 /* Main.storyboard in Resources */,
+				1B36E611222579AB0019F6BA /* TopicVideoView.xib in Resources */,
 				1BD57B2D221EEDC3002703B4 /* RecommendUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +593,7 @@
 			files = (
 				1B3634D1221C0EB1002E8AC0 /* EssenceController.m in Sources */,
 				1B3634D2221C0EB1002E8AC0 /* MeController.m in Sources */,
+				1B36E5F222255A600019F6BA /* TopicController.m in Sources */,
 				1B3634D5221C0EB1002E8AC0 /* RecommendController.m in Sources */,
 				1BD57B1D221EE9A4002703B4 /* RecommendUser.m in Sources */,
 				1BD57B22221EEBBD002703B4 /* LoginRegisterController.m in Sources */,
@@ -541,6 +602,9 @@
 				1B3634CE221C0EB1002E8AC0 /* UIBarButtonItem+Extension.m in Sources */,
 				1B3634CA221C0EB1002E8AC0 /* AppDelegate.m in Sources */,
 				1B3634CC221C0EB1002E8AC0 /* MyNavigationController.m in Sources */,
+				1B36E601222573B80019F6BA /* TopicCell.m in Sources */,
+				1B36E605222579650019F6BA /* TopicPicture.m in Sources */,
+				1B36E5F622255A740019F6BA /* ShowPictureController.m in Sources */,
 				1B3634CF221C0EB1002E8AC0 /* UIView+Extension.m in Sources */,
 				1BD57B30221EEDF9002703B4 /* VerticalButton.m in Sources */,
 				1B0A8AC322204253002C99E7 /* RecommendTag.m in Sources */,
@@ -552,8 +616,12 @@
 				1BD57B1A221EE98E002703B4 /* RecommendCategory.m in Sources */,
 				1B3634CD221C0EB1002E8AC0 /* MyTabBar.m in Sources */,
 				1B0A8AC722204356002C99E7 /* RecommedTagCell.m in Sources */,
+				1B36E5FD2225739A0019F6BA /* TopicModel.m in Sources */,
+				1B36E60A222579890019F6BA /* TopicVoiceView.m in Sources */,
 				1B3634CB221C0EB1002E8AC0 /* MyTabBarController.m in Sources */,
+				1B36E60F222579A00019F6BA /* TopicVideoView.m in Sources */,
 				1BD57B33221EEE17002703B4 /* TextField.m in Sources */,
+				1B36E5FA22255FBF0019F6BA /* BSConst.m in Sources */,
 				1B3634D3221C0EB1002E8AC0 /* FriendController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
